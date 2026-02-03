@@ -59,6 +59,11 @@ const fetchImages=async (query,pageNo)=>{
         }
         else{
             imagesContainer.innerHTML=`<h2>No Search Found</h2>`;
+            if (loadMoreBtn.style.display=="block"){
+                loadMoreBtn.style.display=="none";
+    
+            }
+
     
         }
 
